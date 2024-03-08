@@ -1,0 +1,23 @@
+#root {
+  margin-top: 30dvh;
+}
+
+h1 {
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn {
+  max-width: calc(100dvw - 84dvw);
+  height: 30px;
+  width: calc(100dvw - 16dvh);
+  border: 1px solid;
+  background-color: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+}
