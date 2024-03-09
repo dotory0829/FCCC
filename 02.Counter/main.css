@@ -1,0 +1,27 @@
+body {
+  margin-top: 30vh;
+}
+
+h1,
+#value {
+  text-align: center;
+}
+
+#value {
+  font-size: 36px;
+  display: block;
+}
+
+.btn-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+}
